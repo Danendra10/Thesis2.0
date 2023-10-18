@@ -677,39 +677,17 @@ CMakeFiles/THESIS.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/include/potential_field_logic/vec_repl.hpp \
-  /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/include/entities/draw.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/opencv.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/opencv_modules.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvdef.h \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/version.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/hal/interface.h \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_neon.h \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/base.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/neon_utils.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/vsx_utils.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/check.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/traits.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/matx.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/saturate.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/fast_math.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/types.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cfloat \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/float.h \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/bufferpool.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.inl.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/persistence.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/operations.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.inl.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bitset \
@@ -721,8 +699,6 @@ CMakeFiles/THESIS.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mutex_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cerrno \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_ctype.h \
@@ -766,6 +742,49 @@ CMakeFiles/THESIS.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
+  /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/include/potential_field_logic/vec_repl.hpp \
+  /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/include/entities/draw.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/opencv.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/opencv_modules.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvdef.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/version.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/hal/interface.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_neon.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/base.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/neon_utils.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/check.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/traits.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/matx.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/saturate.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/fast_math.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/types.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cfloat \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/float.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/bufferpool.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/mat.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/persistence.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/operations.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/utility.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/optim.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/core/ovx.hpp \
@@ -792,7 +811,6 @@ CMakeFiles/THESIS.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/matrix.h \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/params.h \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/any.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/saving.h \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/nn_index.h \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/result_set.h \
@@ -812,7 +830,6 @@ CMakeFiles/THESIS.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/lsh_index.h \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/lsh_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/autotuned_index.h \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/ground_truth.h \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/flann/index_testing.h \
@@ -864,21 +881,4 @@ CMakeFiles/THESIS.dir/src/main.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/viz/types.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/viz/widgets.hpp \
   /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/viz/viz3d.hpp \
-  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/viz/vizcore.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream
+  /opt/homebrew/Cellar/opencv/4.8.1_1/include/opencv4/opencv2/viz/vizcore.hpp

@@ -64,6 +64,9 @@ CMAKE_BINARY_DIR = /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/bu
 
 # The main recursive "all" target.
 all: CMakeFiles/THESIS.dir/all
+all: CMakeFiles/2DVISUALIZATION.dir/all
+all: CMakeFiles/3DVISUALIZATION.dir/all
+all: CMakeFiles/OLD_METHOD.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +75,9 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/THESIS.dir/clean
+clean: CMakeFiles/2DVISUALIZATION.dir/clean
+clean: CMakeFiles/3DVISUALIZATION.dir/clean
+clean: CMakeFiles/OLD_METHOD.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +87,7 @@ clean: CMakeFiles/THESIS.dir/clean
 CMakeFiles/THESIS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/THESIS.dir/build.make CMakeFiles/THESIS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/THESIS.dir/build.make CMakeFiles/THESIS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=1,2 "Built target THESIS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=7,8 "Built target THESIS"
 .PHONY : CMakeFiles/THESIS.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +105,84 @@ THESIS: CMakeFiles/THESIS.dir/rule
 CMakeFiles/THESIS.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/THESIS.dir/build.make CMakeFiles/THESIS.dir/clean
 .PHONY : CMakeFiles/THESIS.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2DVISUALIZATION.dir
+
+# All Build rule for target.
+CMakeFiles/2DVISUALIZATION.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2DVISUALIZATION.dir/build.make CMakeFiles/2DVISUALIZATION.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2DVISUALIZATION.dir/build.make CMakeFiles/2DVISUALIZATION.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=1,2 "Built target 2DVISUALIZATION"
+.PHONY : CMakeFiles/2DVISUALIZATION.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2DVISUALIZATION.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2DVISUALIZATION.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 0
+.PHONY : CMakeFiles/2DVISUALIZATION.dir/rule
+
+# Convenience name for target.
+2DVISUALIZATION: CMakeFiles/2DVISUALIZATION.dir/rule
+.PHONY : 2DVISUALIZATION
+
+# clean rule for target.
+CMakeFiles/2DVISUALIZATION.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2DVISUALIZATION.dir/build.make CMakeFiles/2DVISUALIZATION.dir/clean
+.PHONY : CMakeFiles/2DVISUALIZATION.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3DVISUALIZATION.dir
+
+# All Build rule for target.
+CMakeFiles/3DVISUALIZATION.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DVISUALIZATION.dir/build.make CMakeFiles/3DVISUALIZATION.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DVISUALIZATION.dir/build.make CMakeFiles/3DVISUALIZATION.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=3,4 "Built target 3DVISUALIZATION"
+.PHONY : CMakeFiles/3DVISUALIZATION.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3DVISUALIZATION.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3DVISUALIZATION.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 0
+.PHONY : CMakeFiles/3DVISUALIZATION.dir/rule
+
+# Convenience name for target.
+3DVISUALIZATION: CMakeFiles/3DVISUALIZATION.dir/rule
+.PHONY : 3DVISUALIZATION
+
+# clean rule for target.
+CMakeFiles/3DVISUALIZATION.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DVISUALIZATION.dir/build.make CMakeFiles/3DVISUALIZATION.dir/clean
+.PHONY : CMakeFiles/3DVISUALIZATION.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/OLD_METHOD.dir
+
+# All Build rule for target.
+CMakeFiles/OLD_METHOD.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLD_METHOD.dir/build.make CMakeFiles/OLD_METHOD.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLD_METHOD.dir/build.make CMakeFiles/OLD_METHOD.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=5,6 "Built target OLD_METHOD"
+.PHONY : CMakeFiles/OLD_METHOD.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OLD_METHOD.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OLD_METHOD.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 0
+.PHONY : CMakeFiles/OLD_METHOD.dir/rule
+
+# Convenience name for target.
+OLD_METHOD: CMakeFiles/OLD_METHOD.dir/rule
+.PHONY : OLD_METHOD
+
+# clean rule for target.
+CMakeFiles/OLD_METHOD.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLD_METHOD.dir/build.make CMakeFiles/OLD_METHOD.dir/clean
+.PHONY : CMakeFiles/OLD_METHOD.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

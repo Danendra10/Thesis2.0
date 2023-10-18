@@ -3,8 +3,19 @@
 using namespace cv;
 using namespace std;
 
-const int target_x = 400;
-const int target_y = 500;
+const int goal_x = 400;
+const int goal_y = 500;
+const int FIELD_WIDTH = 1400;
+const int FIELD_HEIGHT = 1000;
+const double KAPPA = 0.01; // Attractive constant. You can adjust as needed.
+const double CELL_SIZE = 10.0;
+
+/**
+ * @brief Draw the field
+ */
+float CalculateAttractivePotential(Point2f point, Point2f target)
+{
+}
 
 int main()
 {
@@ -25,52 +36,24 @@ int main()
     DrawBox(window, Point3d(enemy_robot_1.pose.x, enemy_robot_1.pose.y, 0), "Robot Enemy", viz::Color::cyan());
 
     // Parameters for the potential field calculation
-    const int FIELD_WIDTH = 1400;
-    const int FIELD_HEIGHT = 1000;
-    const double KAPPA = 0.01; // Attractive constant. You can adjust as needed.
-    const double CELL_SIZE = 10.0;
-    Point2f target(target_x, target_y);
+    Point2f goal(goal_x, goal_y);
 
-    Logger(RED, "STARTING THE CALCULATION...");
     // Compute the potential field over the entire field
     Mat potentialField(FIELD_HEIGHT, FIELD_WIDTH, CV_32FC1);
     for (int y = 0; y < FIELD_HEIGHT; y++)
     {
         for (int x = 0; x < FIELD_WIDTH; x++)
         {
-            float distance = cv::norm(cv::Point2f(x, y) - target);
+            float distance = cv::norm(cv::Point2f(x, y) - goal);
             potentialField.at<float>(y, x) = 0.5 * KAPPA * distance * distance;
         }
     }
 
     cv::normalize(potentialField, potentialField, 0, 1, cv::NORM_MINMAX);
 
-    vector<viz::WCube> cubes;
-
-    for (int i = 0; i < potentialField.rows; i++)
-    {
-        for (int j = 0; j < potentialField.cols; j++)
-        {
-            try
-            {
-                double x = i * CELL_SIZE;
-                double y = j * CELL_SIZE;
-                double potential = potentialField.at<float>(i, j);
-                cv::viz::WCube cube(cv::Point3d(x, y, 0), cv::Point3d(x + CELL_SIZE, y + CELL_SIZE, potential * 100), true, cv::viz::Color(potential * 255, (1 - potential) * 255, 0));
-                cubes.push_back(cube);
-            }
-            catch (const std::exception &e)
-            {
-                Logger(RED, "Error on main: %s", e.what());
-            }
-        }
-        cout << "Row: " << i << endl;
-    }
-
-    for (int i = 0; i < cubes.size(); i++)
-    {
-        window.showWidget("Cube" + to_string(i), cubes[i]);
-    }
+    Mat grad_x, grad_y;
+    Sobel(potentialField, grad_x, CV_32F, 1, 0, 3);
+    Sobel(potentialField, grad_y, CV_32F, 0, 1, 3);
 
     window.spin();
 

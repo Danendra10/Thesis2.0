@@ -129,6 +129,45 @@ THESIS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/THESIS.dir/build.make CMakeFiles/THESIS.dir/build
 .PHONY : THESIS/fast
 
+#=============================================================================
+# Target rules for targets named 2DVISUALIZATION
+
+# Build rule for target.
+2DVISUALIZATION: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2DVISUALIZATION
+.PHONY : 2DVISUALIZATION
+
+# fast build rule for target.
+2DVISUALIZATION/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2DVISUALIZATION.dir/build.make CMakeFiles/2DVISUALIZATION.dir/build
+.PHONY : 2DVISUALIZATION/fast
+
+#=============================================================================
+# Target rules for targets named 3DVISUALIZATION
+
+# Build rule for target.
+3DVISUALIZATION: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3DVISUALIZATION
+.PHONY : 3DVISUALIZATION
+
+# fast build rule for target.
+3DVISUALIZATION/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DVISUALIZATION.dir/build.make CMakeFiles/3DVISUALIZATION.dir/build
+.PHONY : 3DVISUALIZATION/fast
+
+#=============================================================================
+# Target rules for targets named OLD_METHOD
+
+# Build rule for target.
+OLD_METHOD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OLD_METHOD
+.PHONY : OLD_METHOD
+
+# fast build rule for target.
+OLD_METHOD/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLD_METHOD.dir/build.make CMakeFiles/OLD_METHOD.dir/build
+.PHONY : OLD_METHOD/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +192,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/THESIS.dir/build.make CMakeFiles/THESIS.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/old_method.o: src/old_method.cpp.o
+.PHONY : src/old_method.o
+
+# target to build an object file
+src/old_method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLD_METHOD.dir/build.make CMakeFiles/OLD_METHOD.dir/src/old_method.cpp.o
+.PHONY : src/old_method.cpp.o
+
+src/old_method.i: src/old_method.cpp.i
+.PHONY : src/old_method.i
+
+# target to preprocess a source file
+src/old_method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLD_METHOD.dir/build.make CMakeFiles/OLD_METHOD.dir/src/old_method.cpp.i
+.PHONY : src/old_method.cpp.i
+
+src/old_method.s: src/old_method.cpp.s
+.PHONY : src/old_method.s
+
+# target to generate assembly for a file
+src/old_method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLD_METHOD.dir/build.make CMakeFiles/OLD_METHOD.dir/src/old_method.cpp.s
+.PHONY : src/old_method.cpp.s
+
+src/potential_field_visualization_2d.o: src/potential_field_visualization_2d.cpp.o
+.PHONY : src/potential_field_visualization_2d.o
+
+# target to build an object file
+src/potential_field_visualization_2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2DVISUALIZATION.dir/build.make CMakeFiles/2DVISUALIZATION.dir/src/potential_field_visualization_2d.cpp.o
+.PHONY : src/potential_field_visualization_2d.cpp.o
+
+src/potential_field_visualization_2d.i: src/potential_field_visualization_2d.cpp.i
+.PHONY : src/potential_field_visualization_2d.i
+
+# target to preprocess a source file
+src/potential_field_visualization_2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2DVISUALIZATION.dir/build.make CMakeFiles/2DVISUALIZATION.dir/src/potential_field_visualization_2d.cpp.i
+.PHONY : src/potential_field_visualization_2d.cpp.i
+
+src/potential_field_visualization_2d.s: src/potential_field_visualization_2d.cpp.s
+.PHONY : src/potential_field_visualization_2d.s
+
+# target to generate assembly for a file
+src/potential_field_visualization_2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2DVISUALIZATION.dir/build.make CMakeFiles/2DVISUALIZATION.dir/src/potential_field_visualization_2d.cpp.s
+.PHONY : src/potential_field_visualization_2d.cpp.s
+
+src/potential_field_visualization_3d.o: src/potential_field_visualization_3d.cpp.o
+.PHONY : src/potential_field_visualization_3d.o
+
+# target to build an object file
+src/potential_field_visualization_3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DVISUALIZATION.dir/build.make CMakeFiles/3DVISUALIZATION.dir/src/potential_field_visualization_3d.cpp.o
+.PHONY : src/potential_field_visualization_3d.cpp.o
+
+src/potential_field_visualization_3d.i: src/potential_field_visualization_3d.cpp.i
+.PHONY : src/potential_field_visualization_3d.i
+
+# target to preprocess a source file
+src/potential_field_visualization_3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DVISUALIZATION.dir/build.make CMakeFiles/3DVISUALIZATION.dir/src/potential_field_visualization_3d.cpp.i
+.PHONY : src/potential_field_visualization_3d.cpp.i
+
+src/potential_field_visualization_3d.s: src/potential_field_visualization_3d.cpp.s
+.PHONY : src/potential_field_visualization_3d.s
+
+# target to generate assembly for a file
+src/potential_field_visualization_3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DVISUALIZATION.dir/build.make CMakeFiles/3DVISUALIZATION.dir/src/potential_field_visualization_3d.cpp.s
+.PHONY : src/potential_field_visualization_3d.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +272,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 2DVISUALIZATION"
+	@echo "... 3DVISUALIZATION"
+	@echo "... OLD_METHOD"
 	@echo "... THESIS"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/old_method.o"
+	@echo "... src/old_method.i"
+	@echo "... src/old_method.s"
+	@echo "... src/potential_field_visualization_2d.o"
+	@echo "... src/potential_field_visualization_2d.i"
+	@echo "... src/potential_field_visualization_2d.s"
+	@echo "... src/potential_field_visualization_3d.o"
+	@echo "... src/potential_field_visualization_3d.i"
+	@echo "... src/potential_field_visualization_3d.s"
 .PHONY : help
 
 

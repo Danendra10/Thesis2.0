@@ -1,7 +1,10 @@
 #ifndef LOGGER_HPP_
 #define LOGGER_HPP_
+
 #include <string>
-#include <type_traits>
+#include <filesystem>
+#include <fstream>
+#include <iostream>
 
 using namespace std;
 
@@ -17,6 +20,20 @@ using namespace std;
 string log_dir;
 
 void SaveLog(const char *msg, ...);
+
+int InitLogger()
+{
+    filesystem::path log_directory = filesystem::current_path() / "../log";
+    filesystem::path log_path = log_directory / "logger.log";
+
+    if (!filesystem::exists(log_directory))
+    {
+        filesystem::create_directories(log_directory);
+        ofstream file_name(log_path);
+    }
+
+    log_dir = log_path.string();
+}
 
 void Logger(const char *color, const char *msg, ...)
 {
@@ -41,7 +58,7 @@ void Logger(const char *color, const char *msg, ...)
     va_start(args, msg);
     printf("%s\n", color);
     vprintf(combinedMsg, args);
-    printf("%s   \n", RESET);
+    printf("%s", RESET);
     va_end(args);
 }
 
