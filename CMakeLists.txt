@@ -8,6 +8,7 @@ add_executable(2DVISUALIZATION src/potential_field_visualization_2d.cpp)
 add_executable(3DVISUALIZATION src/potential_field_visualization_3d.cpp)
 add_executable(OLD_METHOD src/old_method.cpp)
 add_executable(repl_only src/repl_only.cpp)
+add_executable(try_viz src/try_viz.cpp)
 
 find_package(OpenCV REQUIRED)
 
@@ -20,5 +21,6 @@ IF(OpenCV_FOUND)
     target_link_libraries(3DVISUALIZATION ${OpenCV_LIBS})
     target_link_libraries(OLD_METHOD ${OpenCV_LIBS})
     target_link_libraries(repl_only ${OpenCV_LIBS})
+    target_link_libraries(try_viz ${OpenCV_LIBS})
 ENDIF(OpenCV_FOUND)
 

@@ -31,7 +31,6 @@ int main()
     window.showWidget("Coordinate System", coords);
 
     DrawField(window);
-    // DrawOuterLine(window);
     DrawBox(window, Point3d(robot_1_own.pose.x, robot_1_own.pose.y, 0), "Robot Own");
     DrawBox(window, Point3d(enemy_robot_1.pose.x, enemy_robot_1.pose.y, 0), "Robot Enemy", viz::Color::cyan());
 

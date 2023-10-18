@@ -68,6 +68,7 @@ all: CMakeFiles/2DVISUALIZATION.dir/all
 all: CMakeFiles/3DVISUALIZATION.dir/all
 all: CMakeFiles/OLD_METHOD.dir/all
 all: CMakeFiles/repl_only.dir/all
+all: CMakeFiles/try_viz.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -80,6 +81,7 @@ clean: CMakeFiles/2DVISUALIZATION.dir/clean
 clean: CMakeFiles/3DVISUALIZATION.dir/clean
 clean: CMakeFiles/OLD_METHOD.dir/clean
 clean: CMakeFiles/repl_only.dir/clean
+clean: CMakeFiles/try_viz.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -211,6 +213,32 @@ repl_only: CMakeFiles/repl_only.dir/rule
 CMakeFiles/repl_only.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/clean
 .PHONY : CMakeFiles/repl_only.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/try_viz.dir
+
+# All Build rule for target.
+CMakeFiles/try_viz.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=11,12 "Built target try_viz"
+.PHONY : CMakeFiles/try_viz.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/try_viz.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/try_viz.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 0
+.PHONY : CMakeFiles/try_viz.dir/rule
+
+# Convenience name for target.
+try_viz: CMakeFiles/try_viz.dir/rule
+.PHONY : try_viz
+
+# clean rule for target.
+CMakeFiles/try_viz.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/clean
+.PHONY : CMakeFiles/try_viz.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

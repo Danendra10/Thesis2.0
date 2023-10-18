@@ -181,6 +181,19 @@ repl_only/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/build
 .PHONY : repl_only/fast
 
+#=============================================================================
+# Target rules for targets named try_viz
+
+# Build rule for target.
+try_viz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 try_viz
+.PHONY : try_viz
+
+# fast build rule for target.
+try_viz/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/build
+.PHONY : try_viz/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -301,6 +314,30 @@ src/repl_only.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/src/repl_only.cpp.s
 .PHONY : src/repl_only.cpp.s
 
+src/try_viz.o: src/try_viz.cpp.o
+.PHONY : src/try_viz.o
+
+# target to build an object file
+src/try_viz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/src/try_viz.cpp.o
+.PHONY : src/try_viz.cpp.o
+
+src/try_viz.i: src/try_viz.cpp.i
+.PHONY : src/try_viz.i
+
+# target to preprocess a source file
+src/try_viz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/src/try_viz.cpp.i
+.PHONY : src/try_viz.cpp.i
+
+src/try_viz.s: src/try_viz.cpp.s
+.PHONY : src/try_viz.s
+
+# target to generate assembly for a file
+src/try_viz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/src/try_viz.cpp.s
+.PHONY : src/try_viz.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,6 +351,7 @@ help:
 	@echo "... OLD_METHOD"
 	@echo "... THESIS"
 	@echo "... repl_only"
+	@echo "... try_viz"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -329,6 +367,9 @@ help:
 	@echo "... src/repl_only.o"
 	@echo "... src/repl_only.i"
 	@echo "... src/repl_only.s"
+	@echo "... src/try_viz.o"
+	@echo "... src/try_viz.i"
+	@echo "... src/try_viz.s"
 .PHONY : help
 
 
