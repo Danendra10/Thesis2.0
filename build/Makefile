@@ -168,6 +168,19 @@ OLD_METHOD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLD_METHOD.dir/build.make CMakeFiles/OLD_METHOD.dir/build
 .PHONY : OLD_METHOD/fast
 
+#=============================================================================
+# Target rules for targets named repl_only
+
+# Build rule for target.
+repl_only: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 repl_only
+.PHONY : repl_only
+
+# fast build rule for target.
+repl_only/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/build
+.PHONY : repl_only/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -264,6 +277,30 @@ src/potential_field_visualization_3d.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3DVISUALIZATION.dir/build.make CMakeFiles/3DVISUALIZATION.dir/src/potential_field_visualization_3d.cpp.s
 .PHONY : src/potential_field_visualization_3d.cpp.s
 
+src/repl_only.o: src/repl_only.cpp.o
+.PHONY : src/repl_only.o
+
+# target to build an object file
+src/repl_only.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/src/repl_only.cpp.o
+.PHONY : src/repl_only.cpp.o
+
+src/repl_only.i: src/repl_only.cpp.i
+.PHONY : src/repl_only.i
+
+# target to preprocess a source file
+src/repl_only.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/src/repl_only.cpp.i
+.PHONY : src/repl_only.cpp.i
+
+src/repl_only.s: src/repl_only.cpp.s
+.PHONY : src/repl_only.s
+
+# target to generate assembly for a file
+src/repl_only.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/src/repl_only.cpp.s
+.PHONY : src/repl_only.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,6 +313,7 @@ help:
 	@echo "... 3DVISUALIZATION"
 	@echo "... OLD_METHOD"
 	@echo "... THESIS"
+	@echo "... repl_only"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -288,6 +326,9 @@ help:
 	@echo "... src/potential_field_visualization_3d.o"
 	@echo "... src/potential_field_visualization_3d.i"
 	@echo "... src/potential_field_visualization_3d.s"
+	@echo "... src/repl_only.o"
+	@echo "... src/repl_only.i"
+	@echo "... src/repl_only.s"
 .PHONY : help
 
 
