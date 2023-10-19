@@ -6,12 +6,14 @@ const int goal_x = 400;           // Target of the robot x
 const int goal_y = 500;           // Target of the robot y
 const int obs_1_x = 1000;         // Target of the robot x
 const int obs_1_y = 300;          // Target of the robot y
+const int obs_2_x = 100;          // Target of the robot x
+const int obs_2_y = 200;          // Target of the robot y
 const int FIELD_WIDTH = 1400;     // Width of the field
 const int FIELD_HEIGHT = 1000;    // Height of the field
 const int visualization_step = 5; // Visualization step
 const float Kattr = 0.1;          // Attractive constant. You can adjust as needed.
 const float Krep = 1000;          // Repulsive constant. You can adjust as needed.
-const float repulsive_radius = 300;
+const float repulsive_radius = 10;
 
 double CalculateAttractivePotential(float x, float y, float target_x, float target_y)
 {
@@ -24,7 +26,7 @@ double CalculateRepulsivePotential(float x, float y, float obstacle_x, float obs
     if (distance < repulsive_radius)
     {
         return 0.5 * Krep * (1.0 / distance - 1.0 / repulsive_radius) * (1.0 / distance - 1.0 / repulsive_radius);
-        return 100;
+        // return 100;
     }
     return 0;
 }
@@ -71,11 +73,15 @@ int main()
         {
             double attractive_potential = CalculateAttractivePotential(i, j, goal_x, goal_y) * 10;
             double repulsive_potential = CalculateRepulsivePotential(i, j, obs_1_x, obs_1_y) * 10;
+            double repulsive_potential_2 = CalculateRepulsivePotential(i, j, obs_2_x, obs_2_y) * 10;
 
             double total_potential = attractive_potential;
 
             if (repulsive_potential != 0 && repulsive_potential != INFINITY)
                 total_potential += repulsive_potential;
+
+            if (repulsive_potential_2 != 0 && repulsive_potential_2 != INFINITY)
+                total_potential += repulsive_potential_2;
 
             // ------------------ 3D Variables ------------------
             points_attr.push_back(cv::Point3f(i, j, attractive_potential));
@@ -83,7 +89,7 @@ int main()
             {
                 points_repl.push_back(cv::Point3f(i, j, repulsive_potential));
             }
-
+            // Logger(YELLOW, "Total potential: %f point: (%d, %d)", total_potential, i, j);
             points_tot.push_back(cv::Point3f(i, j, total_potential));
         }
     }

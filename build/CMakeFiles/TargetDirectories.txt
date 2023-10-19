@@ -4,5 +4,7 @@
 /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles/OLD_METHOD.dir
 /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles/repl_only.dir
 /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles/try_viz.dir
+/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles/robot_movement.dir
+/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles/keyboard_event.dir
 /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles/edit_cache.dir
 /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles/rebuild_cache.dir

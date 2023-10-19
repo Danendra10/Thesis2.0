@@ -194,6 +194,56 @@ try_viz/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/build
 .PHONY : try_viz/fast
 
+#=============================================================================
+# Target rules for targets named robot_movement
+
+# Build rule for target.
+robot_movement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_movement
+.PHONY : robot_movement
+
+# fast build rule for target.
+robot_movement/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_movement.dir/build.make CMakeFiles/robot_movement.dir/build
+.PHONY : robot_movement/fast
+
+#=============================================================================
+# Target rules for targets named keyboard_event
+
+# Build rule for target.
+keyboard_event: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 keyboard_event
+.PHONY : keyboard_event
+
+# fast build rule for target.
+keyboard_event/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_event.dir/build.make CMakeFiles/keyboard_event.dir/build
+.PHONY : keyboard_event/fast
+
+src/keyboard_event.o: src/keyboard_event.cpp.o
+.PHONY : src/keyboard_event.o
+
+# target to build an object file
+src/keyboard_event.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_event.dir/build.make CMakeFiles/keyboard_event.dir/src/keyboard_event.cpp.o
+.PHONY : src/keyboard_event.cpp.o
+
+src/keyboard_event.i: src/keyboard_event.cpp.i
+.PHONY : src/keyboard_event.i
+
+# target to preprocess a source file
+src/keyboard_event.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_event.dir/build.make CMakeFiles/keyboard_event.dir/src/keyboard_event.cpp.i
+.PHONY : src/keyboard_event.cpp.i
+
+src/keyboard_event.s: src/keyboard_event.cpp.s
+.PHONY : src/keyboard_event.s
+
+# target to generate assembly for a file
+src/keyboard_event.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_event.dir/build.make CMakeFiles/keyboard_event.dir/src/keyboard_event.cpp.s
+.PHONY : src/keyboard_event.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -314,6 +364,30 @@ src/repl_only.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/src/repl_only.cpp.s
 .PHONY : src/repl_only.cpp.s
 
+src/robot_movement.o: src/robot_movement.cpp.o
+.PHONY : src/robot_movement.o
+
+# target to build an object file
+src/robot_movement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_movement.dir/build.make CMakeFiles/robot_movement.dir/src/robot_movement.cpp.o
+.PHONY : src/robot_movement.cpp.o
+
+src/robot_movement.i: src/robot_movement.cpp.i
+.PHONY : src/robot_movement.i
+
+# target to preprocess a source file
+src/robot_movement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_movement.dir/build.make CMakeFiles/robot_movement.dir/src/robot_movement.cpp.i
+.PHONY : src/robot_movement.cpp.i
+
+src/robot_movement.s: src/robot_movement.cpp.s
+.PHONY : src/robot_movement.s
+
+# target to generate assembly for a file
+src/robot_movement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_movement.dir/build.make CMakeFiles/robot_movement.dir/src/robot_movement.cpp.s
+.PHONY : src/robot_movement.cpp.s
+
 src/try_viz.o: src/try_viz.cpp.o
 .PHONY : src/try_viz.o
 
@@ -350,8 +424,13 @@ help:
 	@echo "... 3DVISUALIZATION"
 	@echo "... OLD_METHOD"
 	@echo "... THESIS"
+	@echo "... keyboard_event"
 	@echo "... repl_only"
+	@echo "... robot_movement"
 	@echo "... try_viz"
+	@echo "... src/keyboard_event.o"
+	@echo "... src/keyboard_event.i"
+	@echo "... src/keyboard_event.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -367,6 +446,9 @@ help:
 	@echo "... src/repl_only.o"
 	@echo "... src/repl_only.i"
 	@echo "... src/repl_only.s"
+	@echo "... src/robot_movement.o"
+	@echo "... src/robot_movement.i"
+	@echo "... src/robot_movement.s"
 	@echo "... src/try_viz.o"
 	@echo "... src/try_viz.i"
 	@echo "... src/try_viz.s"

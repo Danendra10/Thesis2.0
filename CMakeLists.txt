@@ -9,6 +9,8 @@ add_executable(3DVISUALIZATION src/potential_field_visualization_3d.cpp)
 add_executable(OLD_METHOD src/old_method.cpp)
 add_executable(repl_only src/repl_only.cpp)
 add_executable(try_viz src/try_viz.cpp)
+add_executable(robot_movement src/robot_movement.cpp)
+add_executable(keyboard_event src/keyboard_event.cpp)
 
 find_package(OpenCV REQUIRED)
 
@@ -22,5 +24,6 @@ IF(OpenCV_FOUND)
     target_link_libraries(OLD_METHOD ${OpenCV_LIBS})
     target_link_libraries(repl_only ${OpenCV_LIBS})
     target_link_libraries(try_viz ${OpenCV_LIBS})
+    target_link_libraries(robot_movement ${OpenCV_LIBS})
+    target_link_libraries(keyboard_event ${OpenCV_LIBS})
 ENDIF(OpenCV_FOUND)
-

@@ -69,6 +69,8 @@ all: CMakeFiles/3DVISUALIZATION.dir/all
 all: CMakeFiles/OLD_METHOD.dir/all
 all: CMakeFiles/repl_only.dir/all
 all: CMakeFiles/try_viz.dir/all
+all: CMakeFiles/robot_movement.dir/all
+all: CMakeFiles/keyboard_event.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -82,6 +84,8 @@ clean: CMakeFiles/3DVISUALIZATION.dir/clean
 clean: CMakeFiles/OLD_METHOD.dir/clean
 clean: CMakeFiles/repl_only.dir/clean
 clean: CMakeFiles/try_viz.dir/clean
+clean: CMakeFiles/robot_movement.dir/clean
+clean: CMakeFiles/keyboard_event.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -195,7 +199,7 @@ CMakeFiles/OLD_METHOD.dir/clean:
 CMakeFiles/repl_only.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/repl_only.dir/build.make CMakeFiles/repl_only.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=9,10 "Built target repl_only"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=11,12 "Built target repl_only"
 .PHONY : CMakeFiles/repl_only.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +225,7 @@ CMakeFiles/repl_only.dir/clean:
 CMakeFiles/try_viz.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=11,12 "Built target try_viz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=15,16 "Built target try_viz"
 .PHONY : CMakeFiles/try_viz.dir/all
 
 # Build rule for subdir invocation for target.
@@ -239,6 +243,58 @@ try_viz: CMakeFiles/try_viz.dir/rule
 CMakeFiles/try_viz.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/try_viz.dir/build.make CMakeFiles/try_viz.dir/clean
 .PHONY : CMakeFiles/try_viz.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/robot_movement.dir
+
+# All Build rule for target.
+CMakeFiles/robot_movement.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_movement.dir/build.make CMakeFiles/robot_movement.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_movement.dir/build.make CMakeFiles/robot_movement.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=13,14 "Built target robot_movement"
+.PHONY : CMakeFiles/robot_movement.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/robot_movement.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/robot_movement.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 0
+.PHONY : CMakeFiles/robot_movement.dir/rule
+
+# Convenience name for target.
+robot_movement: CMakeFiles/robot_movement.dir/rule
+.PHONY : robot_movement
+
+# clean rule for target.
+CMakeFiles/robot_movement.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_movement.dir/build.make CMakeFiles/robot_movement.dir/clean
+.PHONY : CMakeFiles/robot_movement.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/keyboard_event.dir
+
+# All Build rule for target.
+CMakeFiles/keyboard_event.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_event.dir/build.make CMakeFiles/keyboard_event.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_event.dir/build.make CMakeFiles/keyboard_event.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles --progress-num=9,10 "Built target keyboard_event"
+.PHONY : CMakeFiles/keyboard_event.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/keyboard_event.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/keyboard_event.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danendracleveroananda/Documents/Kuliah/TA/Thesis2.0/build/CMakeFiles 0
+.PHONY : CMakeFiles/keyboard_event.dir/rule
+
+# Convenience name for target.
+keyboard_event: CMakeFiles/keyboard_event.dir/rule
+.PHONY : keyboard_event
+
+# clean rule for target.
+CMakeFiles/keyboard_event.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_event.dir/build.make CMakeFiles/keyboard_event.dir/clean
+.PHONY : CMakeFiles/keyboard_event.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
