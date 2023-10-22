@@ -29,7 +29,7 @@ LineType line;
 GoalPostType goal_post_away;
 GoalPostType goal_post_home;
 RobotType robot_1_own(0, 0, 90, 0, 0, 0, OWN_ROBOT);
-RobotType enemy_robot_1(100, 100, 90, 0, 0, 0, ENEMY_ROBOT);
+RobotType enemy_robot_1(300, 500, 90, 0, 0, 0, ENEMY_ROBOT);
 
 int DrawField(viz::Viz3d &window)
 {
